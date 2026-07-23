@@ -176,9 +176,9 @@
 .app-help a{color:var(--red);font-weight:600;}
 .app-soon{font-size:.82rem;color:var(--muted);font-style:italic;}
 
-.app-media{flex:0 0 300px;display:flex;justify-content:center;min-width:0;}
+.app-media{flex:0 0 300px;width:100%;display:flex;justify-content:center;min-width:0;}
 .download-card{
-  width:270px;max-width:100%;background:linear-gradient(160deg,var(--cream-2),#fff);
+  width:270px;max-width:100%;margin:0 auto;background:linear-gradient(160deg,var(--cream-2),#fff);
   border-radius:var(--radius);padding:24px 22px;text-align:center;
   box-shadow:var(--shadow);border:2px solid var(--green-light);
 }
